@@ -1,10 +1,10 @@
 export default function Index() {
   return (
     <>
-      <h1 className="text-4xl uppercase font-chakra drop-shadow-lg container mx-auto mt-6 mb-2">
+      <h1 className="text-4xl uppercase font-chakra drop-shadow-lg container mx-auto text-center md:text-left mt-6 mb-2">
         Joe Sputnik, PI
       </h1>
-      <div className="container mx-auto p-6 w-[740px] bg-black/50">
+      <div className="container mx-auto p-6 w-11/12 md:w-[740px] bg-black/50">
         <div>
           <h2 className="text-white opacity-100 font-bold text-xl mb-6">
             THEY SAY THAT THE GREATEST LIE SATAN EVER TOLD WAS THAT HE NEVER
@@ -37,13 +37,14 @@ export default function Index() {
             </strong>
           </p>
         </div>
-        <div className="max-w-sm mx-auto mt-8">
+        <hr className="my-8 w-8/12 mx-auto md:border-2" />
+        <div className="max-w-sm mx-auto mt-8 mb-12">
           <p className="italic">
             It began one early Spring day, bringing with it the promise of a
             fresh start after a long, harsh winter.
           </p>
           <p className="italic">And a dead body on his floor.</p>
-          <p className="text-center mt-4 text-xl">
+          <p className="text-center mt-6 text-base md:text-xl">
             Read{" "}
             <span className="italic underline">LIKE A MOTH TO A FLAME</span>
           </p>

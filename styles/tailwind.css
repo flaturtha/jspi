@@ -13,6 +13,6 @@
     @apply bg-mainImage bg-fixed text-white;
   }
   p {
-    @apply mb-4;
+    @apply mb-4 text-lg;
   }
 }
