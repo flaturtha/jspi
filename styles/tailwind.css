@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Chakra Petch";
+    src: url("/fonts/chakra/ChakraPetch-Bold") format("ttf");
+    font-weight: bold;
+    font-style: normal;
+  }
+  body {
+    @apply bg-mainImage bg-fixed text-white;
+  }
+  p {
+    @apply mb-4;
+  }
+}
