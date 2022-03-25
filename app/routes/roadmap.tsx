@@ -1,14 +1,16 @@
 import Nav from "../components/nav";
 import Footer from "../components/footer";
+import Logo from "~/components/logo";
 
 export default function Index() {
   return (
     <>
-      <h1 className="text-4xl uppercase font-chakra drop-shadow-lg container mx-auto mt-6 mb-4 md:mt-12 md:mb-4 text-center md:text-left md:ml-24">
-        Joe Sputnik, PI
-      </h1>
+      <Logo />
       <div className="container mx-auto p-6 w-11/12 md:w-[740px] bg-black/[.375] md:bg-black/50 md:mt-24 lg:mt-0">
         <h2 className="text-2xl mb-12">Roadmap</h2>
+        <p className="italic font-bold mb-12 -mt-12">
+          (a complete write up coming soon!)
+        </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
           consequuntur non mollitia! Magnam animi exercitationem provident

@@ -26,7 +26,7 @@ export const links: LinksFunction = () => [
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "The Joe Sputnik Chronicles",
+  title: "Joe Sputnik, PI",
   viewport: "width=device-width,initial-scale=1",
 });
 

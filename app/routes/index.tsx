@@ -1,12 +1,11 @@
 import Nav from "../components/nav";
 import Footer from "../components/footer";
+import Logo from "../components/logo";
 
 export default function Index() {
   return (
     <>
-      <h1 className="text-4xl uppercase font-chakra drop-shadow-lg container mx-auto mt-6 mb-4 md:mt-12 md:mb-4 text-center md:text-left md:ml-24">
-        Joe Sputnik, PI
-      </h1>
+      <Logo />
       <div className="md:container mx-auto p-6 w-11/12 md:w-[740px] bg-black/[.375] md:bg-black/50 md:mt-24 lg:mt-0">
         <div>
           <h2 className="font-bold text-xl mb-6">
@@ -25,7 +24,7 @@ export default function Index() {
           </p>
           <p>
             But one man caught a flash of the light and from that, felt the
-            darkness
+            darkness.
           </p>
           <p>
             Now, against this darkness &hellip; against evil so ensconced that
@@ -53,6 +52,7 @@ export default function Index() {
               LIKE A MOTH TO A FLAME
             </span>
           </p>
+          {/* <img src="/img/moth3b.png" alt="" /> */}
         </div>
       </div>
       <Nav />

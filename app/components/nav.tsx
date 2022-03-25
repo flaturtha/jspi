@@ -27,12 +27,9 @@ export default function Nav() {
       >
         Discord
       </NavLink>
-      <NavLink
-        to="/twitter"
-        className={({ isActive }) => (isActive ? activeClassName : undefined)}
-      >
+      <a href="https://twitter.com/ThePulpeteer" target="_blank">
         Twitter
-      </NavLink>
+      </a>
       <NavLink
         to="/mirror"
         className={({ isActive }) => (isActive ? activeClassName : undefined)}
