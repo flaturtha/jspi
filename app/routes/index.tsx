@@ -1,17 +1,19 @@
+import { Link } from "remix";
+
 export default function Index() {
   return (
     <>
-      <h1 className="text-4xl uppercase font-chakra drop-shadow-lg container mx-auto text-center md:text-left mt-6 mb-2">
+      <h1 className="text-4xl uppercase font-chakra drop-shadow-lg container mx-auto mt-6 mb-4 md:mt-12 md:mb-4 text-center md:text-left">
         Joe Sputnik, PI
       </h1>
       <div className="container mx-auto p-6 w-11/12 md:w-[740px] bg-black/50">
         <div>
-          <h2 className="text-white opacity-100 font-bold text-xl mb-6">
+          <h2 className="font-bold text-xl mb-6">
             THEY SAY THAT THE GREATEST LIE SATAN EVER TOLD WAS THAT HE NEVER
             EXISTED
           </h2>
           <p>
-            Out of the promis of a decentralized system &mdash; finance,
+            Out of the promise of a decentralized system &mdash; finance,
             business, commerce, goverment, religion &mdash; rose a darkness. An
             unexpected cloud.
           </p>
@@ -44,12 +46,33 @@ export default function Index() {
             fresh start after a long, harsh winter.
           </p>
           <p className="italic">And a dead body on his floor.</p>
-          <p className="text-center mt-6 text-base md:text-xl">
-            Read{" "}
-            <span className="italic underline">LIKE A MOTH TO A FLAME</span>
+          <p className="text-center mt-6 text-sm md:text-base">
+            Read &rarr;{" "}
+            <span className="italic underline bold text-base md:text-xl">
+              LIKE A MOTH TO A FLAME
+            </span>
           </p>
         </div>
       </div>
+      <nav className="my-8 mx-auto">
+        <ul className="flex flex-col md:flex-row justify-center items-center space-x-0 md:space-x-16 space-y-8 md:space-y-0">
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="roadmap">Roadmap</Link>
+          </li>
+          <li>
+            <Link to="discord">Discord</Link>
+          </li>
+          <li>
+            <Link to="twitter">Twitter</Link>
+          </li>
+          <li>
+            <Link to="mirror">Mirror.xyz</Link>
+          </li>
+        </ul>
+      </nav>
     </>
   );
 }
