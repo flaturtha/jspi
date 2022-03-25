@@ -1,4 +1,5 @@
-import { Link } from "remix";
+import Nav from "../components/nav";
+import Footer from "../components/footer";
 
 export default function Index() {
   return (
@@ -6,7 +7,7 @@ export default function Index() {
       <h1 className="text-4xl uppercase font-chakra drop-shadow-lg container mx-auto mt-6 mb-4 md:mt-12 md:mb-4 text-center md:text-left md:ml-24">
         Joe Sputnik, PI
       </h1>
-      <div className="container mx-auto p-6 w-11/12 md:w-[740px] bg-black/[.375] md:bg-black/50 md:mt-24 lg:mt-0">
+      <div className="md:container mx-auto p-6 w-11/12 md:w-[740px] bg-black/[.375] md:bg-black/50 md:mt-24 lg:mt-0">
         <div>
           <h2 className="font-bold text-xl mb-6">
             THEY SAY THAT THE GREATEST LIE SATAN EVER TOLD WAS THAT HE NEVER
@@ -40,7 +41,7 @@ export default function Index() {
           </p>
         </div>
         <hr className="my-8 w-8/12 mx-auto md:border-2" />
-        <div className="max-w-sm mx-auto mt-8 mb-12">
+        <div className="max-w-sm mx-auto mt-8 md:mb-12">
           <p className="italic">
             It began one early Spring day, bringing with it the promise of a
             fresh start after a long, harsh winter.
@@ -54,25 +55,8 @@ export default function Index() {
           </p>
         </div>
       </div>
-      <nav className="my-8 mx-auto">
-        <ul className="flex flex-col md:flex-row justify-center items-center space-x-0 md:space-x-16 space-y-8 md:space-y-0">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="roadmap">Roadmap</Link>
-          </li>
-          <li>
-            <Link to="discord">Discord</Link>
-          </li>
-          <li>
-            <Link to="twitter">Twitter</Link>
-          </li>
-          <li>
-            <Link to="mirror">Mirror.xyz</Link>
-          </li>
-        </ul>
-      </nav>
+      <Nav />
+      <Footer />
     </>
   );
 }

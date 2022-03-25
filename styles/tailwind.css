@@ -10,7 +10,7 @@
     font-style: normal;
   }
   body {
-    @apply bg-mainImage_sm md:bg-mainImage_md lg:bg-mainImage_lg bg-fixed bg-no-repeat bg-cover text-white;
+    @apply bg-mainImage_sm md:bg-mainImage_md lg:bg-mainImage_lg bg-fixed bg-no-repeat bg-cover bg-center text-white;
   }
   p {
     @apply mb-4 text-base;
