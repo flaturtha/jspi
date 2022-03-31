@@ -1,6 +1,7 @@
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Logo from "../components/logo";
+import { NavLink } from "remix";
 
 export default function Index() {
   return (
@@ -48,9 +49,12 @@ export default function Index() {
           <p className="italic">And a dead body on his floor.</p>
           <p className="text-center mt-6 text-sm md:text-base">
             Read &#10132;{" "}
-            <span className="italic underline bold text-base md:text-xl">
+            <NavLink
+              to="/lamtaf"
+              className="italic underline bold text-base md:text-xl"
+            >
               LIKE A MOTH TO A FLAME
-            </span>
+            </NavLink>
           </p>
           {/* <img src="/img/moth3b.png" alt="" /> */}
         </div>

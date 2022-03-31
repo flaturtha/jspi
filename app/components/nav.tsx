@@ -10,7 +10,7 @@ export default function Nav() {
   return (
     <div className="container mx-auto flex flex-col md:flex-row md:mt-28 lg:mt-12 py-4 text-center justify-center items-center space-x-0 md:space-x-24 space-y-8 md:space-y-0">
       <NavLink
-        to="#home"
+        to="/"
         style={({ isActive }) => (isActive ? activeStyle : undefined)}
       >
         Home
