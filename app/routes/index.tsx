@@ -15,11 +15,11 @@ export default function Index() {
           </h2>
           <p>
             Out of the promise of a decentralized system &mdash; finance,
-            business, commerce, goverment, religion &mdash; rose a darkness. An
+            business, commerce, government, religion &mdash; rose a darkness. An
             unexpected cloud.
           </p>
           <p>
-            But one so indisious, so hidden that most never even noticed. A
+            But one so insidious, so hidden that most never even noticed. A
             darkness so complete that no one even suspected. Until it was too
             late&nbsp;&hellip;
           </p>
