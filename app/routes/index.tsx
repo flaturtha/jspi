@@ -49,12 +49,14 @@ export default function Index() {
           <p className="italic">And a dead body on his floor.</p>
           <p className="text-center mt-6 text-sm md:text-base">
             Read &#10132;{" "}
-            <NavLink
-              to="/lamtaf"
+            <a
+              href="https://mirror.xyz/0x839846a00f25f01DcB7446A50C92AfB5B24E1b03/qW03oE20ZQmD6z8jRUnMBkjpMfplkUoI0IEIE90Txl4"
               className="italic underline bold text-base md:text-xl"
+              target="_blank"
+              rel="noreferrer"
             >
               LIKE A MOTH TO A FLAME
-            </NavLink>
+            </a>
           </p>
           {/* <img src="/img/moth3b.png" alt="" /> */}
         </div>
