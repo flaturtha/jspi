@@ -10,6 +10,8 @@ import type { MetaFunction } from "remix";
 
 import styles from "./tailwind.css";
 
+import Cafes from "./components/cafes";
+
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: styles },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -42,6 +44,7 @@ export default function App() {
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
+        <Cafes />
       </body>
     </html>
   );
